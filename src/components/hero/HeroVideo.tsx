@@ -67,9 +67,80 @@ export function HeroVideo() {
     };
   }, [reduced, video]);
 
+  // Scroll-scrubbing a video only works where the browser will render frames
+  // from programmatic `currentTime` seeks — reliable on desktop, broken on iOS
+  // Safari (a never-played video shows black when seeked). So phones get a
+  // plain autoplaying muted loop instead; desktop keeps the scrub.
+  if (hasVideo && !reduced && isMobile)
+    return <LoopHero key={video} video={video} poster={poster} />;
   if (hasVideo && !reduced)
     return <ScrubHero key={video} video={video} poster={poster} />;
   return <PosterHero reduced={!!reduced} poster={poster} />;
+}
+
+/* ------------------------------------------------------------------ */
+/* Loop hero — single screen, video autoplays muted (mobile)           */
+/* ------------------------------------------------------------------ */
+
+function LoopHero({ video, poster }: { video: string; poster: string }) {
+  const t = useTranslations("hero");
+  const tc = useTranslations("cta");
+  const videoRef = useRef<HTMLVideoElement>(null);
+
+  // `autoPlay muted` is enough on most browsers, but iOS sometimes needs an
+  // explicit play() — and occasionally only allows it after the first touch.
+  useEffect(() => {
+    const v = videoRef.current;
+    if (!v) return;
+    const tryPlay = () => {
+      v.play().catch(() => {
+        /* blocked until interaction — the touch listener below retries */
+      });
+    };
+    tryPlay();
+    v.addEventListener("loadeddata", tryPlay);
+    const onTouch = () => tryPlay();
+    document.addEventListener("touchstart", onTouch, { once: true, passive: true });
+    return () => {
+      v.removeEventListener("loadeddata", tryPlay);
+      document.removeEventListener("touchstart", onTouch);
+    };
+  }, []);
+
+  return (
+    <section className="relative flex min-h-dvh items-center overflow-hidden bg-navy-950">
+      <video
+        ref={videoRef}
+        poster={poster}
+        autoPlay
+        muted
+        loop
+        playsInline
+        preload="auto"
+        aria-hidden
+        className="absolute inset-0 size-full object-cover"
+      >
+        <source src={video} type="video/mp4" />
+      </video>
+
+      <div
+        aria-hidden
+        className="absolute inset-0 bg-linear-to-r from-navy-950/92 via-navy-950/55 to-transparent md:via-navy-950/38"
+      />
+      <div
+        aria-hidden
+        className="absolute inset-0 bg-linear-to-t from-navy-950 via-navy-950/8 to-navy-950/45"
+      />
+      <div aria-hidden className="absolute inset-0 opacity-60">
+        <Snowfall density={0.45} wind={0.28} interactive={false} />
+      </div>
+      <div aria-hidden className="pointer-events-none absolute inset-0 grain" />
+
+      <div className="shell relative py-32">
+        <HeroCopy t={t} tc={tc} />
+      </div>
+    </section>
+  );
 }
 
 /* ------------------------------------------------------------------ */
