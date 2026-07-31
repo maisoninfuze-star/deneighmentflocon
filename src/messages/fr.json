@@ -1,0 +1,625 @@
+{
+  "meta": {
+    "home": {
+      "title": "Déneigement Flocons — Déneigement premium à Laval et Sainte-Dorothée",
+      "description": "Déneigement résidentiel, commercial et d'urgence à Sainte-Dorothée, Laval et les environs. Service 24 h sur 24, équipement professionnel, contrats saisonniers. Obtenez votre estimation gratuite."
+    },
+    "residential": {
+      "title": "Déneigement résidentiel à Laval | Déneigement Flocons",
+      "description": "Entrées, allées, escaliers et portes de garage déneigés avant votre réveil. Contrats saisonniers résidentiels à Sainte-Dorothée et partout à Laval."
+    },
+    "commercial": {
+      "title": "Déneigement commercial à Laval | Déneigement Flocons",
+      "description": "Stationnements, centres commerciaux, entrepôts et immeubles de bureaux. Équipement lourd, gestion de la neige et épandage. Service 24 h sur 24."
+    },
+    "emergency": {
+      "title": "Déneigement d'urgence 24 h | Déneigement Flocons",
+      "description": "Tempête imprévue, verglas, accès bloqué. Intervention d'urgence en moins de 3 heures à Laval et Sainte-Dorothée. Appelez maintenant."
+    },
+    "services": {
+      "title": "Nos services de déneigement | Déneigement Flocons",
+      "description": "Déneigement résidentiel, commercial, urgence et contrats saisonniers. Découvrez tous nos services à Laval et Sainte-Dorothée."
+    },
+    "estimate": {
+      "title": "Estimation gratuite | Déneigement Flocons",
+      "description": "Obtenez une estimation précise en moins de deux minutes. Décrivez votre propriété, ajoutez des photos, recevez votre prix."
+    },
+    "about": {
+      "title": "À propos | Déneigement Flocons",
+      "description": "Une équipe locale de Sainte-Dorothée qui traite chaque propriété comme la sienne. Découvrez notre histoire et nos standards."
+    },
+    "faq": {
+      "title": "Foire aux questions | Déneigement Flocons",
+      "description": "Tarifs, délais d'intervention, contrats saisonniers, assurances. Toutes les réponses à vos questions sur le déneigement."
+    },
+    "testimonials": {
+      "title": "Témoignages clients | Déneigement Flocons",
+      "description": "Ce que disent nos clients résidentiels et commerciaux de Laval et Sainte-Dorothée."
+    },
+    "contact": {
+      "title": "Contact | Déneigement Flocons",
+      "description": "Joignez-nous 24 h sur 24 au (514) 813-2297. Sainte-Dorothée, Laval et les environs."
+    },
+    "privacy": {
+      "title": "Politique de confidentialité | Déneigement Flocons",
+      "description": "Comment nous recueillons, utilisons et protégeons vos renseignements personnels, conformément à la Loi 25 du Québec."
+    },
+    "terms": {
+      "title": "Conditions d'utilisation | Déneigement Flocons",
+      "description": "Les conditions qui encadrent l'utilisation de notre site et de nos services de déneigement."
+    }
+  },
+
+  "nav": {
+    "home": "Accueil",
+    "residential": "Résidentiel",
+    "commercial": "Commercial",
+    "emergency": "Urgence",
+    "services": "Services",
+    "estimate": "Soumission",
+    "about": "À propos",
+    "faq": "FAQ",
+    "testimonials": "Témoignages",
+    "contact": "Contact",
+    "privacy": "Confidentialité",
+    "terms": "Conditions",
+    "menu": "Menu",
+    "close": "Fermer",
+    "openMenu": "Ouvrir le menu",
+    "skipToContent": "Aller au contenu principal"
+  },
+
+  "cta": {
+    "estimate": "Obtenir une estimation",
+    "estimateShort": "Estimation gratuite",
+    "call": "Appeler maintenant",
+    "callNow": "Appelez maintenant",
+    "learnMore": "En savoir plus",
+    "seeServices": "Voir les services",
+    "discover": "Découvrir",
+    "back": "Retour",
+    "next": "Suivant",
+    "submit": "Envoyer",
+    "confirm": "Confirmer",
+    "available": "Disponible 24 h sur 24"
+  },
+
+  "hero": {
+    "eyebrow": "Sainte-Dorothée · Laval · Environs",
+    "titleLine1": "Votre hiver.",
+    "titleLine2": "Notre mission.",
+    "subtitle": "Déneigement résidentiel et commercial exécuté avec la précision d'un service de conciergerie. Votre entrée est dégagée avant que votre journée commence.",
+    "scroll": "Défilez",
+    "scene2": {
+      "eyebrow": "L'intervention",
+      "title": "La tempête ne dort pas.",
+      "titleAccent": "Nous non plus.",
+      "body": "Dès les premiers cinq centimètres, nos équipes sont déjà en route. Chaque véhicule est suivi par GPS, chaque propriété a son horaire, chaque passage est confirmé."
+    },
+    "scene3": {
+      "eyebrow": "Résidentiel",
+      "title": "Un quartier au complet,",
+      "titleAccent": "dégagé avant l'aube.",
+      "body": "Entrées, allées piétonnes, escaliers et portes de garage. Rien n'est laissé au hasard, rien n'est oublié."
+    },
+    "scene4": {
+      "eyebrow": "Commercial",
+      "title": "Vos opérations",
+      "titleAccent": "ne s'arrêtent jamais.",
+      "body": "Stationnements, quais de chargement, centres commerciaux et immeubles de bureaux. Équipement lourd, épandage et gestion complète de la neige."
+    },
+    "scene5": {
+      "title": "Prêt pour un hiver",
+      "titleAccent": "sans souci ?",
+      "body": "Recevez une estimation précise en moins de deux minutes. Aucun engagement, aucune pression."
+    }
+  },
+
+  "trust": {
+    "title": "La confiance, mesurée.",
+    "properties": "Propriétés déneigées",
+    "availability": "Disponibilité",
+    "response": "Délai d'intervention",
+    "years": "Années d'expérience",
+    "insured": "Entièrement assuré",
+    "insuredBody": "Responsabilité civile complète. Votre propriété est protégée à chaque passage.",
+    "gps": "Suivi GPS",
+    "gpsBody": "Chaque véhicule est localisé en temps réel. Vous savez exactement quand nous passons.",
+    "local": "Équipe locale",
+    "localBody": "Basés à Sainte-Dorothée. Nous connaissons chaque rue, chaque entrée, chaque courbe.",
+    "contract": "Contrat clair",
+    "contractBody": "Un prix fixe pour la saison. Aucun frais caché, aucune surprise en janvier."
+  },
+
+  "services": {
+    "eyebrow": "Nos services",
+    "title": "Quatre façons de reprendre",
+    "titleAccent": "votre hiver.",
+    "subtitle": "Du bungalow au centre commercial, chaque propriété reçoit le même niveau d'attention.",
+    "residential": {
+      "name": "Résidentiel",
+      "tagline": "Votre entrée, impeccable",
+      "description": "Entrées simples ou doubles, allées piétonnes, escaliers et portes de garage. Déneigés avant votre départ le matin.",
+      "features": [
+        "Passage automatique dès 5 cm",
+        "Entrée, allées et escaliers inclus",
+        "Balises installées à l'automne",
+        "Déglaçage sur demande"
+      ]
+    },
+    "commercial": {
+      "name": "Commercial",
+      "tagline": "Vos portes restent ouvertes",
+      "description": "Stationnements, quais de chargement et accès véhicules lourds. Planification adaptée à vos heures d'ouverture.",
+      "features": [
+        "Intervention avant l'ouverture",
+        "Épandage d'abrasifs et de sel",
+        "Transport de neige hors site",
+        "Rapports d'intervention détaillés"
+      ]
+    },
+    "emergency": {
+      "name": "Urgence",
+      "tagline": "Quand ça ne peut pas attendre",
+      "description": "Verglas soudain, accès bloqué, tempête imprévue. Une équipe est mobilisée en moins de trois heures.",
+      "features": [
+        "Disponible 24 h sur 24, 7 jours sur 7",
+        "Intervention en moins de 3 heures",
+        "Déglaçage d'urgence",
+        "Aucun contrat requis"
+      ]
+    },
+    "seasonal": {
+      "name": "Contrat saisonnier",
+      "tagline": "Un prix, tout l'hiver",
+      "description": "Un forfait fixe de novembre à avril. Peu importe le nombre de tempêtes, votre prix ne bouge pas.",
+      "features": [
+        "Prix fixe de novembre à avril",
+        "Nombre de passages illimité",
+        "Priorité lors des tempêtes majeures",
+        "Renouvellement automatique optionnel"
+      ]
+    }
+  },
+
+  "process": {
+    "eyebrow": "Comment ça fonctionne",
+    "title": "Quatre étapes.",
+    "titleAccent": "Puis vous oubliez la neige.",
+    "steps": [
+      {
+        "title": "Vous demandez une estimation",
+        "body": "Deux minutes. Décrivez votre propriété, ajoutez quelques photos si vous voulez."
+      },
+      {
+        "title": "Nous évaluons votre propriété",
+        "body": "Nous mesurons, nous validons les accès et nous vous envoyons un prix ferme."
+      },
+      {
+        "title": "Nous installons les balises",
+        "body": "Avant la première neige, votre terrain est balisé et votre entrée est cartographiée."
+      },
+      {
+        "title": "Nous passons, vous dormez",
+        "body": "Dès 5 cm, l'équipe est en route. Vous vous réveillez, c'est déjà fait."
+      }
+    ]
+  },
+
+  "beforeAfter": {
+    "eyebrow": "Avant · Après",
+    "title": "Glissez pour voir",
+    "titleAccent": "la différence.",
+    "body": "Une entrée résidentielle typique à Sainte-Dorothée, après une bordée de 30 cm.",
+    "before": "Avant",
+    "after": "Après",
+    "hint": "Glissez pour révéler",
+    "aria": "Glisseur de comparaison avant et après déneigement"
+  },
+
+  "areas": {
+    "eyebrow": "Zone de service",
+    "title": "Nous connaissons",
+    "titleAccent": "votre quartier.",
+    "body": "Basés à Sainte-Dorothée, nous desservons l'ensemble de Laval et les secteurs environnants.",
+    "notListed": "Votre secteur n'est pas dans la liste ?",
+    "callUs": "Appelez-nous, nous nous déplaçons souvent plus loin."
+  },
+
+  "testimonials": {
+    "eyebrow": "Témoignages",
+    "title": "Ce que disent",
+    "titleAccent": "nos clients.",
+    "subtitle": "Des propriétaires et gestionnaires d'immeubles de partout à Laval.",
+    "verified": "Client vérifié",
+    "items": [
+      {
+        "quote": "Je pars travailler à 5 h 30. Depuis trois hivers, mon entrée est toujours faite quand je sors. Jamais une seule fois j'ai eu à pelleter.",
+        "name": "Martin Lavoie",
+        "role": "Propriétaire, Sainte-Dorothée",
+        "service": "Résidentiel"
+      },
+      {
+        "quote": "On gère un stationnement de 140 places. Ils arrivent avant 6 h, toujours. Nos locataires n'ont jamais eu à se plaindre.",
+        "name": "Caroline Bédard",
+        "role": "Gestionnaire immobilier, Chomedey",
+        "service": "Commercial"
+      },
+      {
+        "quote": "Verglas un dimanche soir, ma mère de 82 ans ne pouvait pas sortir. Ils étaient là en moins de deux heures. Ça, ça vaut de l'or.",
+        "name": "Sophie Tremblay",
+        "role": "Résidente, Fabreville",
+        "service": "Urgence"
+      },
+      {
+        "quote": "Le prix était clair dès le début et il n'a pas bougé de l'hiver, même avec les grosses tempêtes de février.",
+        "name": "Jean-François Roy",
+        "role": "Propriétaire, Sainte-Rose",
+        "service": "Contrat saisonnier"
+      },
+      {
+        "quote": "Ils font attention. Pas une égratignure sur le pavé uni, pas un dommage sur la pelouse au printemps. Ça paraît qu'ils sont soigneux.",
+        "name": "Isabelle Nguyen",
+        "role": "Propriétaire, Vimont",
+        "service": "Résidentiel"
+      },
+      {
+        "quote": "Notre entrepôt reçoit des camions dès 7 h. Ils déneigent les quais et l'accès avant, sans qu'on ait à les appeler.",
+        "name": "Marc Delisle",
+        "role": "Directeur des opérations, Laval",
+        "service": "Commercial"
+      }
+    ]
+  },
+
+  "faq": {
+    "eyebrow": "Questions fréquentes",
+    "title": "Tout ce que vous",
+    "titleAccent": "devez savoir.",
+    "subtitle": "Une question qui n'est pas ici ? Appelez-nous, on répond en personne.",
+    "stillQuestions": "Il vous reste une question ?",
+    "items": [
+      {
+        "q": "À partir de combien de neige passez-vous ?",
+        "a": "Nous intervenons automatiquement dès 5 cm d'accumulation. Vous n'avez pas besoin de nous appeler : notre équipe suit les prévisions et les relevés en temps réel, et les tournées sont lancées avant la fin de la précipitation lors des grosses bordées."
+      },
+      {
+        "q": "Combien coûte un contrat saisonnier ?",
+        "a": "Le prix dépend de la taille de l'entrée, du nombre d'accès et des obstacles présents. Une entrée résidentielle simple à Laval se situe généralement entre 450 $ et 750 $ pour la saison complète. Demandez une estimation : vous recevrez un prix ferme, pas une fourchette."
+      },
+      {
+        "q": "Que comprend exactement le service résidentiel ?",
+        "a": "L'entrée de garage, les allées piétonnes menant à la porte principale, les escaliers et le dégagement devant la porte de garage. L'installation des balises à l'automne et leur retrait au printemps sont inclus. Le déglaçage est offert en supplément."
+      },
+      {
+        "q": "Est-ce que vous êtes assurés ?",
+        "a": "Oui. Nous détenons une assurance responsabilité civile complète et tous nos opérateurs sont couverts. Une preuve d'assurance peut vous être transmise sur demande, ce que plusieurs gestionnaires d'immeubles exigent avant de signer."
+      },
+      {
+        "q": "Et si vous endommagez mon pavé ou ma pelouse ?",
+        "a": "Nos lames sont équipées de sabots de protection et nos opérateurs balisent chaque propriété à l'automne pour connaître les limites exactes. Dans le cas rare d'un dommage, nous le réparons à nos frais au printemps. C'est écrit dans le contrat."
+      },
+      {
+        "q": "Offrez-vous le déneigement de toiture ?",
+        "a": "Nous n'offrons pas le déneigement de toiture. C'est un métier distinct, avec ses propres exigences de sécurité et d'assurance. Nous pouvons toutefois vous référer à un entrepreneur spécialisé de confiance dans la région."
+      },
+      {
+        "q": "Que se passe-t-il lors d'une tempête majeure ?",
+        "a": "Lors des accumulations de plus de 25 cm, nous effectuons un premier passage de dégagement pour libérer votre accès, puis un second passage de finition une fois la tempête terminée. Les clients sous contrat saisonnier sont toujours servis en priorité."
+      },
+      {
+        "q": "Puis-je m'inscrire en cours de saison ?",
+        "a": "Oui, sous réserve de la capacité restante dans votre secteur. Le tarif est alors calculé au prorata des mois restants. Les places pour Sainte-Dorothée et Chomedey partent généralement avant la mi-novembre."
+      },
+      {
+        "q": "Comment se fait le paiement ?",
+        "a": "Par virement Interac, carte de crédit ou chèques postdatés. Les contrats saisonniers peuvent être payés en un seul versement ou en quatre versements mensuels égaux, de novembre à février, sans frais additionnels."
+      },
+      {
+        "q": "Intervenez-vous la nuit ?",
+        "a": "Oui. La majorité de nos tournées résidentielles se déroulent entre 2 h et 7 h afin que votre entrée soit dégagée avant votre départ. Les sites commerciaux sont planifiés selon vos heures d'ouverture."
+      }
+    ]
+  },
+
+  "finalCta": {
+    "eyebrow": "La saison approche",
+    "title": "Prêt pour un hiver",
+    "titleAccent": "sans souci ?",
+    "body": "Les places sont limitées par secteur afin de garantir nos délais d'intervention. Réservez la vôtre dès maintenant.",
+    "spots": "Places restantes à Sainte-Dorothée",
+    "or": "ou"
+  },
+
+  "footer": {
+    "tagline": "Déneigement résidentiel et commercial à Sainte-Dorothée, Laval et les environs. Disponible 24 h sur 24, tout l'hiver.",
+    "services": "Services",
+    "company": "Entreprise",
+    "legal": "Légal",
+    "contact": "Contact",
+    "areasServed": "Secteurs desservis",
+    "rights": "Tous droits réservés.",
+    "callAnytime": "Appelez à toute heure",
+    "builtIn": "Conçu à Laval, Québec."
+  },
+
+  "estimate": {
+    "eyebrow": "Estimation gratuite",
+    "title": "Deux minutes.",
+    "titleAccent": "Un prix ferme.",
+    "subtitle": "Répondez à quelques questions. Plus vous êtes précis, plus votre estimation le sera.",
+    "stepOf": "Étape {current} de {total}",
+    "steps": {
+      "service": "Service",
+      "property": "Propriété",
+      "details": "Détails",
+      "photos": "Photos",
+      "contact": "Coordonnées",
+      "review": "Confirmation"
+    },
+    "service": {
+      "title": "De quel service avez-vous besoin ?",
+      "subtitle": "Choisissez celui qui décrit le mieux votre situation."
+    },
+    "property": {
+      "title": "Parlez-nous de votre propriété",
+      "subtitle": "Ces mesures nous permettent de calculer un prix juste.",
+      "type": "Type de propriété",
+      "types": {
+        "house": "Maison unifamiliale",
+        "semi": "Maison jumelée",
+        "townhouse": "Maison en rangée",
+        "duplex": "Duplex ou triplex",
+        "condo": "Condo",
+        "building": "Immeuble à logements",
+        "retail": "Commerce de détail",
+        "office": "Immeuble de bureaux",
+        "industrial": "Industriel ou entrepôt",
+        "other": "Autre"
+      },
+      "drivewaySize": "Dimensions de l'entrée",
+      "length": "Longueur",
+      "width": "Largeur",
+      "unitFeet": "Pieds",
+      "unitMeters": "Mètres",
+      "vehicles": "Nombre de véhicules stationnés",
+      "surface": "Surface estimée",
+      "tempo": "Abri Tempo",
+      "tempoHint": "Un abri d'auto temporaire qui couvre l'entrée et la protège de la neige.",
+      "tempoYes": "Avec abri Tempo",
+      "tempoNo": "Sans abri Tempo"
+    },
+    "details": {
+      "title": "Qu'est-ce qui doit être dégagé ?",
+      "subtitle": "Sélectionnez tout ce qui s'applique.",
+      "walkways": "Allées piétonnes",
+      "garage": "Porte de garage",
+      "stairs": "Escaliers",
+      "sidewalk": "Trottoir",
+      "deicing": "Déglaçage et abrasifs",
+      "obstacles": "Obstacles à connaître",
+      "obstaclesPlaceholder": "Pavé uni, borne-fontaine, aménagement paysager, pente prononcée, muret…",
+      "notes": "Notes additionnelles",
+      "notesPlaceholder": "Heure de départ le matin, animaux, code d'accès, préférences particulières…"
+    },
+    "photos": {
+      "title": "Ajoutez des photos",
+      "subtitle": "Optionnel, mais cela rend votre estimation nettement plus précise.",
+      "dropzone": "Glissez vos photos ici",
+      "browse": "ou parcourez vos fichiers",
+      "camera": "Prendre une photo",
+      "accepted": "JPG, PNG, HEIC ou MP4 · 25 Mo maximum par fichier",
+      "uploading": "Téléversement…",
+      "compressing": "Optimisation…",
+      "remove": "Retirer",
+      "addMore": "Ajouter d'autres fichiers",
+      "count": "{count, plural, =0 {Aucun fichier} =1 {1 fichier} other {# fichiers}}",
+      "tooLarge": "Ce fichier dépasse 25 Mo",
+      "wrongType": "Format non pris en charge",
+      "skip": "Passer cette étape"
+    },
+    "contact": {
+      "title": "Où vous joindre ?",
+      "subtitle": "Nous confirmons chaque estimation par téléphone ou par courriel.",
+      "name": "Nom complet",
+      "namePlaceholder": "Marie Tremblay",
+      "phone": "Téléphone",
+      "phonePlaceholder": "(514) 555-0142",
+      "email": "Courriel",
+      "emailPlaceholder": "marie@exemple.ca",
+      "address": "Adresse",
+      "addressPlaceholder": "1250 rue des Érables",
+      "city": "Ville",
+      "cityPlaceholder": "Laval",
+      "postalCode": "Code postal",
+      "postalPlaceholder": "H7X 1A1",
+      "consent": "J'accepte d'être contacté par téléphone, courriel ou message texte au sujet de cette demande. Des frais de messagerie peuvent s'appliquer. Répondez STOP pour vous désabonner.",
+      "consentRequired": "Votre consentement est requis pour que nous puissions vous répondre."
+    },
+    "review": {
+      "title": "Vérifiez votre demande",
+      "subtitle": "Un dernier coup d'œil avant l'envoi.",
+      "edit": "Modifier",
+      "submit": "Envoyer ma demande",
+      "submitting": "Envoi en cours…",
+      "whatsappNote": "Après l'envoi, WhatsApp s'ouvrira avec votre demande déjà rédigée. Votre demande est enregistrée peu importe ce que vous faites ensuite."
+    },
+    "success": {
+      "title": "Demande reçue.",
+      "body": "Nous vous répondons en moins de 24 heures, souvent bien avant. Votre numéro de référence est {ref}.",
+      "openWhatsapp": "Ouvrir WhatsApp",
+      "whatsappHint": "Pour une réponse encore plus rapide, envoyez-nous le message pré-rempli.",
+      "callInstead": "Ou appelez directement",
+      "backHome": "Retour à l'accueil"
+    },
+    "errors": {
+      "required": "Ce champ est requis",
+      "nameShort": "Veuillez entrer votre nom complet",
+      "phoneInvalid": "Entrez un numéro de téléphone valide à 10 chiffres",
+      "emailInvalid": "Entrez une adresse courriel valide",
+      "postalInvalid": "Entrez un code postal valide (ex. H7X 1A1)",
+      "selectService": "Veuillez choisir un service",
+      "selectType": "Veuillez choisir un type de propriété",
+      "dimensionInvalid": "Entrez une dimension valide",
+      "submitFailed": "L'envoi a échoué. Vérifiez votre connexion et réessayez.",
+      "tryAgain": "Réessayer"
+    }
+  },
+
+  "contact": {
+    "eyebrow": "Contact",
+    "title": "Parlons de",
+    "titleAccent": "votre propriété.",
+    "subtitle": "Une vraie personne répond, 24 heures sur 24.",
+    "phone": "Téléphone",
+    "phoneNote": "Le plus rapide, surtout pendant une tempête",
+    "whatsapp": "WhatsApp",
+    "whatsappNote": "Envoyez-nous une photo de votre entrée",
+    "email": "Courriel",
+    "emailNote": "Réponse en moins de 24 heures",
+    "area": "Zone de service",
+    "areaNote": "Sainte-Dorothée, Laval et les environs",
+    "hours": "Heures d'ouverture",
+    "hoursNote": "24 heures sur 24, 7 jours sur 7, de novembre à avril",
+    "formTitle": "Écrivez-nous",
+    "message": "Votre message",
+    "messagePlaceholder": "Comment pouvons-nous vous aider ?",
+    "send": "Envoyer le message",
+    "sent": "Message envoyé. Merci !",
+    "sentBody": "Nous vous répondons sous peu."
+  },
+
+  "about": {
+    "eyebrow": "À propos",
+    "title": "Nous habitons",
+    "titleAccent": "le même hiver que vous.",
+    "lead": "Déneigement Flocons est né à Sainte-Dorothée, d'une idée simple : traiter chaque entrée comme si c'était la nôtre.",
+    "body1": "Nous avons commencé avec un camion et une poignée de voisins. Ce qui nous a fait grandir, ce n'est pas la publicité — c'est le fait d'être passés, chaque fois, avant que nos clients se réveillent.",
+    "body2": "Aujourd'hui, notre flotte couvre l'ensemble de Laval, mais la règle n'a pas changé. Chaque opérateur connaît son secteur par cœur. Chaque propriété est balisée à l'automne. Chaque passage est confirmé. Et quand la tempête frappe à 3 h du matin, nous sommes déjà dehors.",
+    "valuesTitle": "Nos standards",
+    "values": [
+      {
+        "title": "Ponctualité",
+        "body": "Dégagé avant votre départ. Pas « dans la journée », pas « dès que possible ». Avant que vous sortiez."
+      },
+      {
+        "title": "Soin",
+        "body": "Sabots de protection sur chaque lame, balises sur chaque terrain. Votre pavé et votre pelouse traversent l'hiver intacts."
+      },
+      {
+        "title": "Transparence",
+        "body": "Un prix ferme avant la première neige. Aucun frais de tempête, aucun supplément surprise en février."
+      },
+      {
+        "title": "Constance",
+        "body": "Le trentième passage est exécuté avec le même soin que le premier. C'est là que se juge un déneigeur."
+      }
+    ],
+    "equipmentTitle": "Notre équipement",
+    "equipmentBody": "Chargeuses sur roues, camions à lame en V, souffleuses et épandeurs. Le bon outil pour chaque surface, entretenu toute l'année, prêt avant la première bordée."
+  },
+
+  "emergency": {
+    "eyebrow": "Service d'urgence",
+    "title": "Bloqué ?",
+    "titleAccent": "Nous arrivons.",
+    "lead": "Verglas soudain, entrée impraticable, tempête qui dépasse les prévisions. Une équipe est mobilisée en moins de trois heures, contrat ou pas.",
+    "callBig": "Appelez maintenant",
+    "available": "Ligne d'urgence ouverte 24 h sur 24",
+    "whenTitle": "Quand nous appeler",
+    "when": [
+      "Votre entrée est bloquée par le passage de la charrue municipale",
+      "Le verglas rend l'accès dangereux pour une personne à mobilité réduite",
+      "Vous avez un rendez-vous médical et vous ne pouvez pas sortir",
+      "Une accumulation dépasse ce que votre équipement peut gérer",
+      "Votre commerce doit ouvrir dans quelques heures",
+      "Un camion de livraison ne peut pas accéder à votre quai"
+    ],
+    "responseTitle": "Ce à quoi vous attendre",
+    "response": [
+      { "title": "Appel reçu", "body": "Une personne répond, jamais un répondeur. Nous évaluons l'urgence immédiatement." },
+      { "title": "Équipe assignée", "body": "L'équipe la plus proche de votre secteur est déroutée vers vous." },
+      { "title": "Arrivée sur place", "body": "En moins de trois heures dans la zone de Laval, souvent bien plus vite." },
+      { "title": "Accès libéré", "body": "Nous dégageons, nous déglaçons si nécessaire, et nous confirmons avant de partir." }
+    ]
+  },
+
+  "residential": {
+    "eyebrow": "Déneigement résidentiel",
+    "title": "Ouvrez la porte.",
+    "titleAccent": "C'est déjà fait.",
+    "lead": "Vous n'avez plus à surveiller la météo, à vous lever plus tôt, ni à sortir la pelle. Nous passons pendant que vous dormez.",
+    "includedTitle": "Ce qui est inclus",
+    "included": [
+      { "title": "Entrée de garage", "body": "Simple, double ou triple. Dégagée sur toute la largeur, jusqu'à la rue." },
+      { "title": "Allées piétonnes", "body": "Le chemin vers votre porte principale, dégagé et sécuritaire." },
+      { "title": "Escaliers", "body": "Marches et paliers déneigés à la main, là où la machine ne passe pas." },
+      { "title": "Porte de garage", "body": "Le banc de neige laissé par la charrue municipale, retiré à chaque passage." },
+      { "title": "Balises", "body": "Installées en octobre, retirées en avril. Vos limites sont protégées tout l'hiver." },
+      { "title": "Déglaçage", "body": "Sel et abrasifs sur demande, pour les surfaces glacées et les pentes." }
+    ],
+    "pricingTitle": "Un prix, toute la saison",
+    "pricingBody": "Les contrats résidentiels couvrent la période du 15 novembre au 15 avril, avec un nombre de passages illimité. Peu importe combien de tempêtes frappent Laval, votre prix reste le même."
+  },
+
+  "commercial": {
+    "eyebrow": "Déneigement commercial",
+    "title": "Vos clients arrivent.",
+    "titleAccent": "Le chemin est libre.",
+    "lead": "Un stationnement enneigé, c'est une journée de ventes perdue et un risque de responsabilité. Nous éliminons les deux.",
+    "servicesTitle": "Nos services commerciaux",
+    "services": [
+      { "title": "Stationnements", "body": "De 20 à 500 places. Dégagement complet avant l'ouverture, avec zones de dépôt planifiées." },
+      { "title": "Quais de chargement", "body": "Accès véhicules lourds maintenu en tout temps pour vos livraisons." },
+      { "title": "Trottoirs et accès", "body": "Entrées piétonnes, rampes d'accès et sorties de secours dégagées et déglacées." },
+      { "title": "Épandage", "body": "Sel, abrasifs et fondants appliqués selon les conditions et vos surfaces." },
+      { "title": "Transport de neige", "body": "Quand l'espace manque, nous chargeons et évacuons la neige hors site." },
+      { "title": "Rapports d'intervention", "body": "Date, heure, conditions et travaux exécutés. Documentation complète pour vos assureurs." }
+    ],
+    "clientsTitle": "Qui nous servons",
+    "clients": [
+      "Centres commerciaux",
+      "Immeubles de bureaux",
+      "Entrepôts et distribution",
+      "Immeubles à logements",
+      "Cliniques et cabinets",
+      "Restaurants et commerces",
+      "Concessionnaires",
+      "Écoles et garderies"
+    ],
+    "slaTitle": "Engagement de service",
+    "slaBody": "Chaque contrat commercial définit un seuil de déclenchement, une fenêtre d'intervention et un plan de gestion de la neige propre à votre site. Vous savez exactement ce qui se passe, et quand."
+  },
+
+  "servicesPage": {
+    "eyebrow": "Services",
+    "title": "Tout ce dont votre propriété",
+    "titleAccent": "a besoin cet hiver.",
+    "lead": "Quatre services principaux, une seule équipe, un seul point de contact."
+  },
+
+  "legal": {
+    "lastUpdated": "Dernière mise à jour",
+    "backHome": "Retour à l'accueil"
+  },
+
+  "language": {
+    "label": "Langue",
+    "fr": "Français",
+    "en": "English",
+    "switchTo": "Passer en anglais"
+  },
+
+  "common": {
+    "loading": "Chargement…",
+    "error": "Une erreur est survenue",
+    "retry": "Réessayer",
+    "optional": "optionnel",
+    "required": "requis",
+    "yes": "Oui",
+    "no": "Non",
+    "notFoundTitle": "Page introuvable",
+    "notFoundBody": "Cette page s'est perdue dans la tempête. Retournons à l'accueil.",
+    "phoneLabel": "Téléphone"
+  }
+}

@@ -39,3 +39,9 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+# Local lead fallback (contains customer PII — never commit)
+.leads/
+
+# Local settings + lead fallback stores (may contain PII — never commit)
+.data/

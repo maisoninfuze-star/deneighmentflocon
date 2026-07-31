@@ -1,0 +1,625 @@
+{
+  "meta": {
+    "home": {
+      "title": "Déneigement Flocons — Premium Snow Removal in Laval & Sainte-Dorothée",
+      "description": "Residential, commercial and emergency snow removal in Sainte-Dorothée, Laval and surrounding areas. Available 24/7, professional equipment, seasonal contracts. Get your free estimate."
+    },
+    "residential": {
+      "title": "Residential Snow Removal in Laval | Déneigement Flocons",
+      "description": "Driveways, walkways, stairs and garage entrances cleared before you wake up. Seasonal residential contracts in Sainte-Dorothée and across Laval."
+    },
+    "commercial": {
+      "title": "Commercial Snow Removal in Laval | Déneigement Flocons",
+      "description": "Parking lots, shopping centres, warehouses and office buildings. Heavy equipment, snow management and de-icing. Available 24/7."
+    },
+    "emergency": {
+      "title": "24/7 Emergency Snow Removal | Déneigement Flocons",
+      "description": "Unexpected storm, ice, blocked access. Emergency response in under 3 hours across Laval and Sainte-Dorothée. Call now."
+    },
+    "services": {
+      "title": "Our Snow Removal Services | Déneigement Flocons",
+      "description": "Residential, commercial, emergency snow removal and seasonal contracts. Explore every service we offer in Laval and Sainte-Dorothée."
+    },
+    "estimate": {
+      "title": "Free Estimate | Déneigement Flocons",
+      "description": "Get an accurate estimate in under two minutes. Describe your property, add photos, receive your price."
+    },
+    "about": {
+      "title": "About Us | Déneigement Flocons",
+      "description": "A local Sainte-Dorothée team that treats every property like its own. Discover our story and our standards."
+    },
+    "faq": {
+      "title": "Frequently Asked Questions | Déneigement Flocons",
+      "description": "Pricing, response times, seasonal contracts, insurance. Every answer to your snow removal questions."
+    },
+    "testimonials": {
+      "title": "Client Testimonials | Déneigement Flocons",
+      "description": "What our residential and commercial clients across Laval and Sainte-Dorothée have to say."
+    },
+    "contact": {
+      "title": "Contact | Déneigement Flocons",
+      "description": "Reach us 24/7 at (514) 813-2297. Sainte-Dorothée, Laval and surrounding areas."
+    },
+    "privacy": {
+      "title": "Privacy Policy | Déneigement Flocons",
+      "description": "How we collect, use and protect your personal information, in accordance with Quebec's Law 25."
+    },
+    "terms": {
+      "title": "Terms of Service | Déneigement Flocons",
+      "description": "The terms governing your use of our website and our snow removal services."
+    }
+  },
+
+  "nav": {
+    "home": "Home",
+    "residential": "Residential",
+    "commercial": "Commercial",
+    "emergency": "Emergency",
+    "services": "Services",
+    "estimate": "Estimate",
+    "about": "About",
+    "faq": "FAQ",
+    "testimonials": "Testimonials",
+    "contact": "Contact",
+    "privacy": "Privacy",
+    "terms": "Terms",
+    "menu": "Menu",
+    "close": "Close",
+    "openMenu": "Open menu",
+    "skipToContent": "Skip to main content"
+  },
+
+  "cta": {
+    "estimate": "Get an estimate",
+    "estimateShort": "Free estimate",
+    "call": "Call now",
+    "callNow": "Call now",
+    "learnMore": "Learn more",
+    "seeServices": "See services",
+    "discover": "Discover",
+    "back": "Back",
+    "next": "Next",
+    "submit": "Submit",
+    "confirm": "Confirm",
+    "available": "Available 24/7"
+  },
+
+  "hero": {
+    "eyebrow": "Sainte-Dorothée · Laval · Surrounding Areas",
+    "titleLine1": "Your Winter.",
+    "titleLine2": "Our Mission.",
+    "subtitle": "Residential and commercial snow removal executed with the precision of a concierge service. Your driveway is clear before your day begins.",
+    "scroll": "Scroll",
+    "scene2": {
+      "eyebrow": "The response",
+      "title": "The storm doesn't sleep.",
+      "titleAccent": "Neither do we.",
+      "body": "From the first five centimetres, our crews are already moving. Every vehicle is GPS-tracked, every property has its slot, every pass is confirmed."
+    },
+    "scene3": {
+      "eyebrow": "Residential",
+      "title": "An entire neighbourhood,",
+      "titleAccent": "clear before dawn.",
+      "body": "Driveways, walkways, stairs and garage entrances. Nothing left to chance, nothing forgotten."
+    },
+    "scene4": {
+      "eyebrow": "Commercial",
+      "title": "Your operations",
+      "titleAccent": "never stop.",
+      "body": "Parking lots, loading docks, shopping centres and office buildings. Heavy equipment, de-icing and complete snow management."
+    },
+    "scene5": {
+      "title": "Ready for a winter",
+      "titleAccent": "without worry?",
+      "body": "Get an accurate estimate in under two minutes. No commitment, no pressure."
+    }
+  },
+
+  "trust": {
+    "title": "Trust, measured.",
+    "properties": "Properties cleared",
+    "availability": "Availability",
+    "response": "Response time",
+    "years": "Years of experience",
+    "insured": "Fully insured",
+    "insuredBody": "Complete liability coverage. Your property is protected on every pass.",
+    "gps": "GPS tracked",
+    "gpsBody": "Every vehicle is located in real time. You know exactly when we come through.",
+    "local": "Local crew",
+    "localBody": "Based in Sainte-Dorothée. We know every street, every driveway, every curve.",
+    "contract": "Clear contract",
+    "contractBody": "One fixed price for the season. No hidden fees, no surprises in January."
+  },
+
+  "services": {
+    "eyebrow": "Our services",
+    "title": "Four ways to take back",
+    "titleAccent": "your winter.",
+    "subtitle": "From bungalow to shopping centre, every property gets the same level of attention.",
+    "residential": {
+      "name": "Residential",
+      "tagline": "Your driveway, spotless",
+      "description": "Single or double driveways, walkways, stairs and garage entrances. Cleared before you leave in the morning.",
+      "features": [
+        "Automatic pass from 5 cm",
+        "Driveway, walkways and stairs included",
+        "Markers installed each fall",
+        "De-icing on request"
+      ]
+    },
+    "commercial": {
+      "name": "Commercial",
+      "tagline": "Your doors stay open",
+      "description": "Parking lots, loading docks and heavy vehicle access. Scheduling built around your business hours.",
+      "features": [
+        "Cleared before opening",
+        "Salt and abrasive spreading",
+        "Off-site snow hauling",
+        "Detailed service reports"
+      ]
+    },
+    "emergency": {
+      "name": "Emergency",
+      "tagline": "When it can't wait",
+      "description": "Sudden ice, blocked access, a storm beyond forecast. A crew is dispatched in under three hours.",
+      "features": [
+        "Available 24 hours, 7 days a week",
+        "On site in under 3 hours",
+        "Emergency de-icing",
+        "No contract required"
+      ]
+    },
+    "seasonal": {
+      "name": "Seasonal contract",
+      "tagline": "One price, all winter",
+      "description": "A fixed rate from November through April. However many storms hit, your price does not move.",
+      "features": [
+        "Fixed price November to April",
+        "Unlimited number of passes",
+        "Priority during major storms",
+        "Optional automatic renewal"
+      ]
+    }
+  },
+
+  "process": {
+    "eyebrow": "How it works",
+    "title": "Four steps.",
+    "titleAccent": "Then you forget about snow.",
+    "steps": [
+      {
+        "title": "You request an estimate",
+        "body": "Two minutes. Describe your property, add a few photos if you'd like."
+      },
+      {
+        "title": "We assess your property",
+        "body": "We measure, confirm access points and send you a firm price."
+      },
+      {
+        "title": "We install the markers",
+        "body": "Before the first snow, your property is staked and your driveway is mapped."
+      },
+      {
+        "title": "We clear, you sleep",
+        "body": "From 5 cm, the crew is rolling. You wake up, it's already done."
+      }
+    ]
+  },
+
+  "beforeAfter": {
+    "eyebrow": "Before · After",
+    "title": "Drag to see",
+    "titleAccent": "the difference.",
+    "body": "A typical residential driveway in Sainte-Dorothée, after a 30 cm snowfall.",
+    "before": "Before",
+    "after": "After",
+    "hint": "Drag to reveal",
+    "aria": "Before and after snow removal comparison slider"
+  },
+
+  "areas": {
+    "eyebrow": "Service area",
+    "title": "We know",
+    "titleAccent": "your neighbourhood.",
+    "body": "Based in Sainte-Dorothée, we serve all of Laval and the surrounding sectors.",
+    "notListed": "Don't see your area?",
+    "callUs": "Call us — we often travel further."
+  },
+
+  "testimonials": {
+    "eyebrow": "Testimonials",
+    "title": "What our",
+    "titleAccent": "clients say.",
+    "subtitle": "Homeowners and property managers from across Laval.",
+    "verified": "Verified client",
+    "items": [
+      {
+        "quote": "I leave for work at 5:30 a.m. For three winters now, my driveway has always been done when I step out. Not once have I had to shovel.",
+        "name": "Martin Lavoie",
+        "role": "Homeowner, Sainte-Dorothée",
+        "service": "Residential"
+      },
+      {
+        "quote": "We manage a 140-space parking lot. They arrive before 6 a.m., always. Our tenants have never had a single complaint.",
+        "name": "Caroline Bédard",
+        "role": "Property Manager, Chomedey",
+        "service": "Commercial"
+      },
+      {
+        "quote": "Ice storm on a Sunday night, my 82-year-old mother couldn't get out. They were there in under two hours. That's worth its weight in gold.",
+        "name": "Sophie Tremblay",
+        "role": "Resident, Fabreville",
+        "service": "Emergency"
+      },
+      {
+        "quote": "The price was clear from the start and it didn't move all winter, even through the big February storms.",
+        "name": "Jean-François Roy",
+        "role": "Homeowner, Sainte-Rose",
+        "service": "Seasonal contract"
+      },
+      {
+        "quote": "They're careful. Not a scratch on the pavers, no damage to the lawn come spring. You can tell they take pride in it.",
+        "name": "Isabelle Nguyen",
+        "role": "Homeowner, Vimont",
+        "service": "Residential"
+      },
+      {
+        "quote": "Our warehouse takes trucks from 7 a.m. They clear the docks and the approach beforehand, without us ever having to call.",
+        "name": "Marc Delisle",
+        "role": "Operations Director, Laval",
+        "service": "Commercial"
+      }
+    ]
+  },
+
+  "faq": {
+    "eyebrow": "Frequently asked",
+    "title": "Everything you",
+    "titleAccent": "need to know.",
+    "subtitle": "Question not listed here? Call us — a real person answers.",
+    "stillQuestions": "Still have a question?",
+    "items": [
+      {
+        "q": "How much snow before you come?",
+        "a": "We dispatch automatically from 5 cm of accumulation. You never need to call us: our team monitors forecasts and live readings, and routes are launched before the snowfall ends during major storms."
+      },
+      {
+        "q": "How much does a seasonal contract cost?",
+        "a": "Price depends on driveway size, number of access points and any obstacles present. A standard single residential driveway in Laval typically falls between $450 and $750 for the full season. Request an estimate and you'll receive a firm price, not a range."
+      },
+      {
+        "q": "What exactly does residential service include?",
+        "a": "The driveway, walkways leading to your front door, stairs and clearing in front of the garage door. Marker installation in the fall and removal in spring are included. De-icing is available as an add-on."
+      },
+      {
+        "q": "Are you insured?",
+        "a": "Yes. We carry full commercial liability insurance and all operators are covered. Proof of insurance can be provided on request, which many property managers require before signing."
+      },
+      {
+        "q": "What if you damage my pavers or lawn?",
+        "a": "Our blades are fitted with protective shoes and our operators stake every property in the fall so the exact boundaries are known. In the rare case of damage, we repair it at our cost in the spring. It's written into the contract."
+      },
+      {
+        "q": "Do you offer roof snow removal?",
+        "a": "We do not offer roof snow removal. It's a distinct trade with its own safety and insurance requirements. We're happy to refer you to a trusted specialist contractor in the area."
+      },
+      {
+        "q": "What happens during a major storm?",
+        "a": "For accumulations over 25 cm, we make a first clearing pass to open your access, then a second finishing pass once the storm ends. Seasonal contract clients are always served first."
+      },
+      {
+        "q": "Can I sign up mid-season?",
+        "a": "Yes, subject to remaining capacity in your sector. The rate is then prorated for the remaining months. Spots for Sainte-Dorothée and Chomedey generally fill before mid-November."
+      },
+      {
+        "q": "How does payment work?",
+        "a": "By Interac e-transfer, credit card or post-dated cheques. Seasonal contracts can be paid in a single instalment or in four equal monthly payments from November to February, at no additional cost."
+      },
+      {
+        "q": "Do you work overnight?",
+        "a": "Yes. Most of our residential routes run between 2 a.m. and 7 a.m. so your driveway is clear before you leave. Commercial sites are scheduled around your operating hours."
+      }
+    ]
+  },
+
+  "finalCta": {
+    "eyebrow": "The season is coming",
+    "title": "Ready for a winter",
+    "titleAccent": "without worry?",
+    "body": "Spots are limited per sector so we can guarantee our response times. Reserve yours now.",
+    "spots": "Spots remaining in Sainte-Dorothée",
+    "or": "or"
+  },
+
+  "footer": {
+    "tagline": "Residential and commercial snow removal in Sainte-Dorothée, Laval and surrounding areas. Available 24/7, all winter long.",
+    "services": "Services",
+    "company": "Company",
+    "legal": "Legal",
+    "contact": "Contact",
+    "areasServed": "Areas served",
+    "rights": "All rights reserved.",
+    "callAnytime": "Call anytime",
+    "builtIn": "Built in Laval, Québec."
+  },
+
+  "estimate": {
+    "eyebrow": "Free estimate",
+    "title": "Two minutes.",
+    "titleAccent": "A firm price.",
+    "subtitle": "Answer a few questions. The more precise you are, the more precise your estimate.",
+    "stepOf": "Step {current} of {total}",
+    "steps": {
+      "service": "Service",
+      "property": "Property",
+      "details": "Details",
+      "photos": "Photos",
+      "contact": "Contact",
+      "review": "Review"
+    },
+    "service": {
+      "title": "What service do you need?",
+      "subtitle": "Pick the one that best describes your situation."
+    },
+    "property": {
+      "title": "Tell us about your property",
+      "subtitle": "These measurements let us calculate a fair price.",
+      "type": "Property type",
+      "types": {
+        "house": "Detached house",
+        "semi": "Semi-detached",
+        "townhouse": "Townhouse",
+        "duplex": "Duplex or triplex",
+        "condo": "Condo",
+        "building": "Apartment building",
+        "retail": "Retail",
+        "office": "Office building",
+        "industrial": "Industrial or warehouse",
+        "other": "Other"
+      },
+      "drivewaySize": "Driveway dimensions",
+      "length": "Length",
+      "width": "Width",
+      "unitFeet": "Feet",
+      "unitMeters": "Meters",
+      "vehicles": "Vehicles parked",
+      "surface": "Estimated surface",
+      "tempo": "Tempo car shelter",
+      "tempoHint": "A temporary car shelter (abri Tempo) that covers the driveway and keeps the snow off it.",
+      "tempoYes": "With Tempo shelter",
+      "tempoNo": "No Tempo shelter"
+    },
+    "details": {
+      "title": "What needs clearing?",
+      "subtitle": "Select everything that applies.",
+      "walkways": "Walkways",
+      "garage": "Garage door",
+      "stairs": "Stairs",
+      "sidewalk": "Sidewalk",
+      "deicing": "De-icing and abrasives",
+      "obstacles": "Obstacles to know about",
+      "obstaclesPlaceholder": "Pavers, fire hydrant, landscaping, steep slope, retaining wall…",
+      "notes": "Additional notes",
+      "notesPlaceholder": "Morning departure time, pets, gate code, specific preferences…"
+    },
+    "photos": {
+      "title": "Add photos",
+      "subtitle": "Optional, but it makes your estimate considerably more accurate.",
+      "dropzone": "Drag your photos here",
+      "browse": "or browse your files",
+      "camera": "Take a photo",
+      "accepted": "JPG, PNG, HEIC or MP4 · 25 MB max per file",
+      "uploading": "Uploading…",
+      "compressing": "Optimizing…",
+      "remove": "Remove",
+      "addMore": "Add more files",
+      "count": "{count, plural, =0 {No files} =1 {1 file} other {# files}}",
+      "tooLarge": "This file exceeds 25 MB",
+      "wrongType": "Unsupported format",
+      "skip": "Skip this step"
+    },
+    "contact": {
+      "title": "Where can we reach you?",
+      "subtitle": "We confirm every estimate by phone or email.",
+      "name": "Full name",
+      "namePlaceholder": "Marie Tremblay",
+      "phone": "Phone",
+      "phonePlaceholder": "(514) 555-0142",
+      "email": "Email",
+      "emailPlaceholder": "marie@example.ca",
+      "address": "Address",
+      "addressPlaceholder": "1250 rue des Érables",
+      "city": "City",
+      "cityPlaceholder": "Laval",
+      "postalCode": "Postal code",
+      "postalPlaceholder": "H7X 1A1",
+      "consent": "I agree to be contacted by phone, email or text message about this request. Message rates may apply. Reply STOP to unsubscribe.",
+      "consentRequired": "Your consent is required so we can respond to you."
+    },
+    "review": {
+      "title": "Review your request",
+      "subtitle": "One last look before sending.",
+      "edit": "Edit",
+      "submit": "Send my request",
+      "submitting": "Sending…",
+      "whatsappNote": "After sending, WhatsApp will open with your request already written out. Your request is saved regardless of what you do next."
+    },
+    "success": {
+      "title": "Request received.",
+      "body": "We respond within 24 hours, usually much sooner. Your reference number is {ref}.",
+      "openWhatsapp": "Open WhatsApp",
+      "whatsappHint": "For an even faster reply, send us the pre-filled message.",
+      "callInstead": "Or call directly",
+      "backHome": "Back to home"
+    },
+    "errors": {
+      "required": "This field is required",
+      "nameShort": "Please enter your full name",
+      "phoneInvalid": "Enter a valid 10-digit phone number",
+      "emailInvalid": "Enter a valid email address",
+      "postalInvalid": "Enter a valid postal code (e.g. H7X 1A1)",
+      "selectService": "Please choose a service",
+      "selectType": "Please choose a property type",
+      "dimensionInvalid": "Enter a valid dimension",
+      "submitFailed": "Submission failed. Check your connection and try again.",
+      "tryAgain": "Try again"
+    }
+  },
+
+  "contact": {
+    "eyebrow": "Contact",
+    "title": "Let's talk about",
+    "titleAccent": "your property.",
+    "subtitle": "A real person answers, 24 hours a day.",
+    "phone": "Phone",
+    "phoneNote": "Fastest, especially during a storm",
+    "whatsapp": "WhatsApp",
+    "whatsappNote": "Send us a photo of your driveway",
+    "email": "Email",
+    "emailNote": "Reply within 24 hours",
+    "area": "Service area",
+    "areaNote": "Sainte-Dorothée, Laval and surrounding areas",
+    "hours": "Hours",
+    "hoursNote": "24 hours a day, 7 days a week, November through April",
+    "formTitle": "Write to us",
+    "message": "Your message",
+    "messagePlaceholder": "How can we help?",
+    "send": "Send message",
+    "sent": "Message sent. Thank you!",
+    "sentBody": "We'll get back to you shortly."
+  },
+
+  "about": {
+    "eyebrow": "About us",
+    "title": "We live through",
+    "titleAccent": "the same winter you do.",
+    "lead": "Déneigement Flocons started in Sainte-Dorothée, from a simple idea: treat every driveway as if it were our own.",
+    "body1": "We began with one truck and a handful of neighbours. What grew this company wasn't advertising — it was showing up, every single time, before our clients woke up.",
+    "body2": "Today our fleet covers all of Laval, but the rule hasn't changed. Every operator knows their sector by heart. Every property is staked in the fall. Every pass is confirmed. And when the storm hits at 3 a.m., we're already out there.",
+    "valuesTitle": "Our standards",
+    "values": [
+      {
+        "title": "Punctuality",
+        "body": "Cleared before you leave. Not \"sometime today,\" not \"as soon as possible.\" Before you step out."
+      },
+      {
+        "title": "Care",
+        "body": "Protective shoes on every blade, markers on every property. Your pavers and your lawn make it through winter intact."
+      },
+      {
+        "title": "Transparency",
+        "body": "A firm price before the first snowfall. No storm surcharges, no surprise fees in February."
+      },
+      {
+        "title": "Consistency",
+        "body": "The thirtieth pass is done with the same care as the first. That's where a snow removal company is judged."
+      }
+    ],
+    "equipmentTitle": "Our equipment",
+    "equipmentBody": "Wheel loaders, V-blade trucks, blowers and spreaders. The right tool for every surface, maintained year-round, ready before the first snowfall."
+  },
+
+  "emergency": {
+    "eyebrow": "Emergency service",
+    "title": "Stuck?",
+    "titleAccent": "We're on the way.",
+    "lead": "Sudden ice, impassable driveway, a storm beyond forecast. A crew is dispatched in under three hours, contract or no contract.",
+    "callBig": "Call now",
+    "available": "Emergency line open 24 hours",
+    "whenTitle": "When to call us",
+    "when": [
+      "The city plow has blocked in your driveway",
+      "Ice makes access dangerous for someone with reduced mobility",
+      "You have a medical appointment and you can't get out",
+      "Accumulation is beyond what your own equipment can handle",
+      "Your business needs to open in a few hours",
+      "A delivery truck can't reach your loading dock"
+    ],
+    "responseTitle": "What to expect",
+    "response": [
+      { "title": "Call received", "body": "A person answers, never a machine. We assess the urgency immediately." },
+      { "title": "Crew assigned", "body": "The crew closest to your sector is rerouted to you." },
+      { "title": "On site", "body": "Under three hours anywhere in Laval, usually much faster." },
+      { "title": "Access cleared", "body": "We clear, we de-ice if needed, and we confirm before leaving." }
+    ]
+  },
+
+  "residential": {
+    "eyebrow": "Residential snow removal",
+    "title": "Open the door.",
+    "titleAccent": "It's already done.",
+    "lead": "No more watching the forecast, waking up earlier, or reaching for the shovel. We come through while you sleep.",
+    "includedTitle": "What's included",
+    "included": [
+      { "title": "Driveway", "body": "Single, double or triple. Cleared to full width, right to the street." },
+      { "title": "Walkways", "body": "The path to your front door, cleared and safe underfoot." },
+      { "title": "Stairs", "body": "Steps and landings cleared by hand, where machines can't reach." },
+      { "title": "Garage entrance", "body": "The snowbank left by the city plow, removed on every pass." },
+      { "title": "Markers", "body": "Installed in October, removed in April. Your boundaries stay protected all winter." },
+      { "title": "De-icing", "body": "Salt and abrasives on request, for icy surfaces and slopes." }
+    ],
+    "pricingTitle": "One price, all season",
+    "pricingBody": "Residential contracts cover November 15 through April 15, with an unlimited number of passes. However many storms hit Laval, your price stays the same."
+  },
+
+  "commercial": {
+    "eyebrow": "Commercial snow removal",
+    "title": "Your customers arrive.",
+    "titleAccent": "The path is clear.",
+    "lead": "A snowed-in parking lot is a lost day of sales and a liability risk. We eliminate both.",
+    "servicesTitle": "Our commercial services",
+    "services": [
+      { "title": "Parking lots", "body": "From 20 to 500 spaces. Fully cleared before opening, with planned snow storage zones." },
+      { "title": "Loading docks", "body": "Heavy vehicle access maintained at all times for your deliveries." },
+      { "title": "Sidewalks and access", "body": "Pedestrian entrances, accessibility ramps and emergency exits cleared and de-iced." },
+      { "title": "Spreading", "body": "Salt, abrasives and melting agents applied to suit conditions and your surfaces." },
+      { "title": "Snow hauling", "body": "When space runs out, we load and haul the snow off site." },
+      { "title": "Service reports", "body": "Date, time, conditions and work performed. Full documentation for your insurers." }
+    ],
+    "clientsTitle": "Who we serve",
+    "clients": [
+      "Shopping centres",
+      "Office buildings",
+      "Warehouses and distribution",
+      "Apartment buildings",
+      "Clinics and practices",
+      "Restaurants and retail",
+      "Car dealerships",
+      "Schools and daycares"
+    ],
+    "slaTitle": "Service commitment",
+    "slaBody": "Every commercial contract defines a trigger threshold, a response window and a snow management plan specific to your site. You know exactly what happens, and when."
+  },
+
+  "servicesPage": {
+    "eyebrow": "Services",
+    "title": "Everything your property",
+    "titleAccent": "needs this winter.",
+    "lead": "Four core services, one crew, one point of contact."
+  },
+
+  "legal": {
+    "lastUpdated": "Last updated",
+    "backHome": "Back to home"
+  },
+
+  "language": {
+    "label": "Language",
+    "fr": "Français",
+    "en": "English",
+    "switchTo": "Switch to French"
+  },
+
+  "common": {
+    "loading": "Loading…",
+    "error": "Something went wrong",
+    "retry": "Try again",
+    "optional": "optional",
+    "required": "required",
+    "yes": "Yes",
+    "no": "No",
+    "notFoundTitle": "Page not found",
+    "notFoundBody": "This page got lost in the storm. Let's head back home.",
+    "phoneLabel": "Phone"
+  }
+}

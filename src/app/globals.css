@@ -1,26 +1,328 @@
 @import "tailwindcss";
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
+/* ============================================================
+   DÉNEIGEMENT FLOCONS — DESIGN SYSTEM
+   Every token below is derived from the brand logo.
+   Navy #053050 · Blade gold #F6BD0B · Ice #A1C9E0 · Snow #F4FAF8
+   ============================================================ */
+
+@theme {
+  /* ---- NAVY : primary, the badge field & wordmark ---- */
+  --color-navy-950: #01121F;
+  --color-navy-900: #042343;
+  --color-navy-850: #04283F;
+  --color-navy-800: #053050;
+  --color-navy-700: #0A4472;
+  --color-navy-600: #0F5C96;
+  --color-navy-500: #1B76BC;
+
+  /* ---- ICE : secondary, snowbank shadow ---- */
+  --color-ice-600: #6BA3C4;
+  --color-ice-500: #86B6D2;
+  --color-ice-400: #A1C9E0;
+  --color-ice-300: #C4DDEC;
+  --color-ice-200: #DDEBF4;
+  --color-ice-100: #EEF5FA;
+
+  /* ---- SNOW / NEUTRAL ---- */
+  --color-snow: #F4FAF8;
+  --color-snow-dim: #E7F0EF;
+  --color-slate-warm: #7A9897;
+  --color-slate-deep: #274354;
+
+  /* ---- GOLD : the plow blade. Accent only. ---- */
+  --color-gold-300: #FFDD6B;
+  --color-gold-400: #FFCE2E;
+  --color-gold-500: #F6BD0B;
+  --color-gold-600: #E8AD19;
+  --color-gold-700: #C28F06;
+
+  /* ---- TYPE ---- */
+  --font-display: var(--font-manrope), ui-sans-serif, system-ui, sans-serif;
+  --font-sans: var(--font-inter), ui-sans-serif, system-ui, sans-serif;
+
+  /* Cinematic display scale — clamped, fluid, tight */
+  --text-display-2xl: clamp(2.75rem, 6.4vw, 6.5rem);
+  --text-display-2xl--line-height: 0.94;
+  --text-display-2xl--letter-spacing: -0.04em;
+  --text-display-2xl--font-weight: 800;
+
+  --text-display-xl: clamp(2.5rem, 5.4vw, 5.25rem);
+  --text-display-xl--line-height: 0.98;
+  --text-display-xl--letter-spacing: -0.036em;
+  --text-display-xl--font-weight: 800;
+
+  --text-display-lg: clamp(2rem, 4vw, 3.75rem);
+  --text-display-lg--line-height: 1.02;
+  --text-display-lg--letter-spacing: -0.032em;
+  --text-display-lg--font-weight: 700;
+
+  --text-display-md: clamp(1.875rem, 3.6vw, 3.25rem);
+  --text-display-md--line-height: 1.05;
+  --text-display-md--letter-spacing: -0.03em;
+  --text-display-md--font-weight: 700;
+
+  --text-display-sm: clamp(1.5rem, 2.4vw, 2.125rem);
+  --text-display-sm--line-height: 1.15;
+  --text-display-sm--letter-spacing: -0.022em;
+  --text-display-sm--font-weight: 700;
+
+  --text-lead: clamp(1.0625rem, 1.5vw, 1.375rem);
+  --text-lead--line-height: 1.6;
+  --text-lead--letter-spacing: -0.011em;
+
+  --text-eyebrow: 0.75rem;
+  --text-eyebrow--line-height: 1;
+  --text-eyebrow--letter-spacing: 0.18em;
+  --text-eyebrow--font-weight: 600;
+
+  /* ---- RADIUS : logo badge is generously rounded ---- */
+  --radius-xs: 0.5rem;
+  --radius-sm: 0.75rem;
+  --radius-md: 1rem;
+  --radius-lg: 1.5rem;
+  --radius-xl: 2rem;
+  --radius-2xl: 2.5rem;
+  --radius-3xl: 3.5rem;
+
+  /* ---- MOTION : slow, cinematic, never bouncy ---- */
+  --ease-out-expo: cubic-bezier(0.16, 1, 0.3, 1);
+  --ease-out-quint: cubic-bezier(0.22, 1, 0.36, 1);
+  --ease-in-out-soft: cubic-bezier(0.65, 0, 0.35, 1);
+
+  /* ---- ELEVATION : cold light, never muddy grey ---- */
+  --shadow-glass: 0 1px 1px rgba(255, 255, 255, 0.06) inset,
+    0 24px 60px -20px rgba(1, 18, 31, 0.45);
+  --shadow-lift: 0 32px 80px -24px rgba(1, 18, 31, 0.55);
+  --shadow-gold: 0 12px 40px -12px rgba(246, 189, 11, 0.55);
 }
 
-@theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
-}
+/* ============================================================
+   BASE
+   ============================================================ */
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
+@layer base {
+  * {
+    border-color: color-mix(in oklab, var(--color-ice-400) 18%, transparent);
+  }
+
+  html {
+    -webkit-text-size-adjust: 100%;
+    scroll-behavior: auto; /* Lenis owns scrolling */
+  }
+
+  body {
+    background-color: var(--color-navy-950);
+    color: var(--color-snow);
+    font-family: var(--font-sans);
+    font-synthesis-weight: none;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    overflow-x: clip;
+  }
+
+  h1, h2, h3, h4 {
+    font-family: var(--font-display);
+    text-wrap: balance;
+  }
+
+  p {
+    text-wrap: pretty;
+  }
+
+  ::selection {
+    background: var(--color-gold-500);
+    color: var(--color-navy-950);
+  }
+
+  /* Cold, minimal scrollbar */
+  ::-webkit-scrollbar { width: 10px; }
+  ::-webkit-scrollbar-track { background: var(--color-navy-950); }
+  ::-webkit-scrollbar-thumb {
+    background: color-mix(in oklab, var(--color-ice-400) 25%, transparent);
+    border-radius: 99px;
+    border: 3px solid var(--color-navy-950);
+  }
+  ::-webkit-scrollbar-thumb:hover {
+    background: color-mix(in oklab, var(--color-ice-400) 45%, transparent);
+  }
+
+  /* Focus — gold, matches the blade, never removed */
+  :focus-visible {
+    outline: 2px solid var(--color-gold-500);
+    outline-offset: 3px;
+    border-radius: 4px;
   }
 }
 
-body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+/* ============================================================
+   UTILITIES
+   ============================================================ */
+
+@layer utilities {
+  /* Section rhythm — everything breathes */
+  .section {
+    padding-block: clamp(6rem, 14vw, 12rem);
+  }
+  .section-tight {
+    padding-block: clamp(4rem, 8vw, 7rem);
+  }
+
+  .shell {
+    width: 100%;
+    max-width: 84rem;
+    margin-inline: auto;
+    padding-inline: clamp(1.25rem, 5vw, 3.5rem);
+  }
+  .shell-wide {
+    width: 100%;
+    max-width: 96rem;
+    margin-inline: auto;
+    padding-inline: clamp(1.25rem, 4vw, 3rem);
+  }
+
+  /* Glass card — soft blur, light reflection along the top edge */
+  .glass {
+    background: linear-gradient(
+      160deg,
+      color-mix(in oklab, var(--color-ice-200) 11%, transparent),
+      color-mix(in oklab, var(--color-navy-800) 30%, transparent)
+    );
+    backdrop-filter: blur(20px) saturate(140%);
+    -webkit-backdrop-filter: blur(20px) saturate(140%);
+    border: 1px solid color-mix(in oklab, var(--color-ice-300) 16%, transparent);
+    box-shadow: var(--shadow-glass);
+  }
+
+  .glass-light {
+    background: linear-gradient(
+      160deg,
+      rgba(255, 255, 255, 0.9),
+      rgba(238, 245, 250, 0.6)
+    );
+    backdrop-filter: blur(20px) saturate(130%);
+    -webkit-backdrop-filter: blur(20px) saturate(130%);
+    border: 1px solid rgba(255, 255, 255, 0.7);
+    box-shadow: 0 24px 60px -24px rgba(5, 48, 80, 0.25);
+  }
+
+  /* Light sweep across the top edge of a glass surface */
+  .sheen::before {
+    content: "";
+    position: absolute;
+    inset-inline: 12%;
+    top: 0;
+    height: 1px;
+    background: linear-gradient(
+      90deg,
+      transparent,
+      color-mix(in oklab, var(--color-ice-200) 70%, transparent),
+      transparent
+    );
+    pointer-events: none;
+  }
+
+  .eyebrow {
+    font-size: var(--text-eyebrow);
+    letter-spacing: var(--text-eyebrow--letter-spacing);
+    font-weight: 600;
+    text-transform: uppercase;
+  }
+
+  /* Atmospheric depth — a cold light source behind content */
+  .aurora {
+    background:
+      radial-gradient(60% 55% at 50% 0%, color-mix(in oklab, var(--color-navy-600) 34%, transparent) 0%, transparent 70%),
+      radial-gradient(45% 40% at 85% 20%, color-mix(in oklab, var(--color-ice-400) 12%, transparent) 0%, transparent 75%),
+      radial-gradient(50% 45% at 10% 70%, color-mix(in oklab, var(--color-navy-700) 26%, transparent) 0%, transparent 75%);
+  }
+
+  .text-gradient-ice {
+    background: linear-gradient(170deg, #FFFFFF 8%, var(--color-ice-300) 55%, var(--color-ice-500) 100%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+  }
+
+  .text-gradient-gold {
+    background: linear-gradient(160deg, var(--color-gold-300), var(--color-gold-600));
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+  }
+
+  /* Fog band used to dissolve one section into the next */
+  .fog-top {
+    -webkit-mask-image: linear-gradient(to bottom, transparent, black 18%);
+    mask-image: linear-gradient(to bottom, transparent, black 18%);
+  }
+  .fog-bottom {
+    -webkit-mask-image: linear-gradient(to bottom, black 82%, transparent);
+    mask-image: linear-gradient(to bottom, black 82%, transparent);
+  }
+
+  .grain {
+    position: relative;
+  }
+  .grain::after {
+    content: "";
+    position: absolute;
+    inset: 0;
+    pointer-events: none;
+    opacity: 0.16;
+    mix-blend-mode: overlay;
+    background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 200 200' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.85' numOctaves='3'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E");
+  }
+}
+
+/* ============================================================
+   ENTRANCE PRIMITIVES (CSS-driven, no JS cost)
+   ============================================================ */
+
+@keyframes flocons-rise {
+  from { opacity: 0; transform: translate3d(0, 28px, 0); }
+  to   { opacity: 1; transform: none; }
+}
+
+@keyframes flocons-fade {
+  from { opacity: 0; }
+  to   { opacity: 1; }
+}
+
+@keyframes flocons-drift {
+  0%   { transform: translate3d(0, 0, 0); }
+  50%  { transform: translate3d(0, -14px, 0); }
+  100% { transform: translate3d(0, 0, 0); }
+}
+
+.animate-drift {
+  animation: flocons-drift 7s var(--ease-in-out-soft) infinite;
+}
+
+/* ============================================================
+   ACCESSIBILITY — animation is decoration, never a barrier
+   ============================================================ */
+
+/* Scroll reveals mount at opacity 0 and are animated in by JS. If scripting
+   is unavailable the animation never runs, which would leave most of the page
+   permanently invisible — so force every revealed element visible instead. */
+@media (scripting: none) {
+  .reveal-fallback {
+    opacity: 1 !important;
+    filter: none !important;
+    transform: none !important;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+  .animate-drift { animation: none !important; }
 }
