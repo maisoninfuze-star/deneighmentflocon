@@ -300,6 +300,19 @@
   animation: flocons-drift 7s var(--ease-in-out-soft) infinite;
 }
 
+/* Mobile hero: a slow camera-follow across the 16:9 clip inside its 9:16
+   frame — drifts from the tractor toward the plow lifting the snow, so the
+   framing "moves with the tractor" instead of sitting static. */
+@keyframes flocons-hero-pan {
+  from { object-position: 34% center; }
+  to   { object-position: 66% center; }
+}
+.hero-pan {
+  object-position: 50% center;
+  animation: flocons-hero-pan 14s var(--ease-in-out-soft) infinite alternate;
+  will-change: object-position;
+}
+
 /* ============================================================
    ACCESSIBILITY — animation is decoration, never a barrier
    ============================================================ */
@@ -325,4 +338,5 @@
     scroll-behavior: auto !important;
   }
   .animate-drift { animation: none !important; }
+  .hero-pan { animation: none !important; object-position: 50% center !important; }
 }

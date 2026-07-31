@@ -118,7 +118,7 @@ function LoopHero({ video, poster }: { video: string; poster: string }) {
         playsInline
         preload="auto"
         aria-hidden
-        className="absolute inset-0 size-full object-cover"
+        className="hero-pan absolute inset-0 size-full object-cover"
       >
         <source src={video} type="video/mp4" />
       </video>
